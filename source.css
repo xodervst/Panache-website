@@ -27,7 +27,6 @@
 
 .row1logo{
     width: 10%;
-    height: auto;
     padding-left:100px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -40,7 +39,7 @@
 .row1menu{
     width:80%;
     padding-top: 70px;
-    height: 0px;
+    height: 50px;
     padding-bottom: 60px;
     float:left;
    
@@ -56,22 +55,20 @@
     height:16px;
     padding-top:14px;
     padding-bottom: 25px;
-   
     background: url("images/menu1.png");
     background-size: contain;
 }
 
 .menu1{
     float:left;
+    font-weight: bolder;
     text-align: center;
     font-size: 20px;
-    font-weight: bolder;
     margin-left: 30px;
     width: 183px;
     height:16px;
     padding-top:14px;
     padding-bottom: 25px;
-    
     background: url("images/menu1.png");
     background-size: contain;
 }
@@ -103,15 +100,14 @@
 .menu1:hover{
     float:left;
     color: white;
+    font-weight: bolder;
     text-align: center;
     font-size: 24px;
-    font-weight: bolder;
     margin-left: 30px;
-    width: 182px;
+    width: 183px;
     height:16px;
     padding-top:14px;
     padding-bottom: 25px;
-    
     background: url("images/menu2.png");
     background-size: contain;
 }
