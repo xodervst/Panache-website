@@ -16,7 +16,8 @@
 
 <body class="body">
     <div class="main" id="Webpage Top">
-        <div class="row1and2">
+         <!--Following code is for First Row- Navigation Bar and Second Row-Home Page-->
+         <div class="row1and2"> <!--Cumulative Class for row1 and row2-->
             <div class="row1">
 
                 <div class="row1logo"> <img src="images/panache.png" height="120px" width="120px" /></div>
@@ -39,12 +40,12 @@
 
             </div>
         </div>
+        <!--This ends the div for row1and2-->
         <div class="gobacktotop"><a href="#Webpage Top"><img src="images/Back-to-top.png" alt="Top" style="width:50px; height: 30px;"></a></div>
-        <center>
-            <div class="row1and2" id="Events">
+        <div class="events" id="Events">
                 <div class="contactsrow1">Events</div>
-
-                <table>
+                <div class="eventsrow2">
+                    <table align="center">
                     <tr>
                         <td>
                             <div class="eventpostercard">
@@ -161,157 +162,134 @@
                             </div>
                         </td>
                     </tr>
-                </table>
-        </center>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="gobacktotop"><a href="#Webpage Top"><img src="images/Back-to-top.png" alt="Top" style="width:50px; height: 30px;"></a></div>
-    <br>
-    <br>
-    
-    <br>
-    <br>
-
-
-
-    <div class="contacts" id="contacts">
-        <div class="contactsrow1">Contact Us</div>
-        <div class="contactsrow2">
-            <div class="contactsrow2column1">
-
-                <div class="contactsrow2column1row1">
-                    <img src="images/location.png" width="80px" height="80px">
-                    <h2>Our Address</h2>
-                    Bhausaheb Bandodkar Technical Education Complex<br />
-                    Goa Engineering College Campus, Farmagudi, Ponda, Goa 403401
-
-
-                </div>
-
-                <div class="contactsrow2column1row2">
-                    <div class="contactsrow2column1row2column1">
-
-                        <a href="mailto:testing.website_mail@iitgoa.ac.in"> <img src="images/email.png" width="70px"
-                                height="60px"></a>
-                        <h2>Email Us</h2>
-                        testing.website_mail@iitgoa.ac.in
-
-
-                    </div>
-
-                    <div class="contactsrow2column1row2column2">
-
-                        <a href=”tel:6205126676> <img src="images/call.png" width="80px" height="60px"></a>
-                        <h2>Call Us</h2>
-                        +91 9000000000
-
-
-                    </div>
-
-
-                </div>
-            </div>
-            <div class="contactsrow2column2">
-
-                <form action=”mailto:singhvaibhav.vst@gmail.com” method=”POST” enctype=”multipart/form-data”
-                    name=”EmailForm”>
-                    <table cellspacing="20px" cellpadding="20px" class="center">
-                        <tr>
-                            <td><input type="text" name="Your Name" value="Your Name"></td>
-                            <td><input type="email" name="Your Email" value="Your Email"></td>
-
-                        </tr>
-
-                        <tr>
-                            <td colspan="2"><input type="text" value="Subject"></td>
-
-                        </tr>
-
-                        <tr>
-                            <td colspan="2"><textarea cols="40" rows="4">Message</textarea></td>
-
-                        </tr>
-
-                        <tr>
-                            <td cellpadding="0px" width="100px" colspan="Send Message"><input type="submit"
-                                    name="Send Message" value="Send Message"></td>
-
-                        </tr>
                     </table>
-                </form>
-
-            </div>
-
+                </div>
         </div>
-        <div class="contactsrow3"> <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.148176085357!2d73.97765305061205!3d15.422551889230657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfba54fee5bafd%3A0x69e94eca83b5d602!2sIndian%20Institute%20of%20Technology%20(IIT)%2C%20Goa!5e0!3m2!1sen!2sin!4v1655758076073!5m2!1sen!2sin"
-                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 
-    </div>
+    <div class="gobacktotop"><a href="#Webpage Top"><img src="images/Back-to-top.png" alt="Top" style="width:50px; height: 30px;"></a></div>
+ 
+        <!--Starts the div for Contacts-->
+        <div class="contacts" id="contacts">
+            <div class="contactsrow1">Contact Us</div>
+            <div class="contactsrow2">
+                <div class="contactsrow2column1">
 
-
-    </div>
-
-    <div class="footer">
-        <div class="footertrans">
-            <div class="footercolumn1">
-                <h3>Useful Links</h3>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#home">About Us</a></li>
-                    <li><a href="#home">Events</a></li>
-                    <li><a href="#home">Our Team</a></li>
-                    <li><a href="#contacts">Contact Us</a></li>
-                </ul>
+                    <div class="contactsrow2column1row1">
+                        <img src="images/location.png" width="80px" height="80px">
+                        <h2>Our Address</h2>
+                        Bhausaheb Bandodkar Technical Education Complex<br />
+                        Goa Engineering College Campus, Farmagudi, Ponda, Goa 403401
 
 
+                    </div>
 
+                    <div class="contactsrow2column1row2">
+                        <div class="contactsrow2column1row2column1">
+
+                            <a href="mailto:testing.website_mail@iitgoa.ac.in"> <img src="images/email.png" width="70px"
+                                    height="60px"></a>
+                            <h2>Email Us</h2>
+                            testing.website_mail@iitgoa.ac.in
+
+
+                        </div>
+
+                        <div class="contactsrow2column1row2column2">
+
+                            <a href=”tel:6205126676> <img src="images/call.png" width="80px" height="60px"></a>
+                            <h2>Call Us</h2>
+                            +91 9000000000
+
+
+                        </div>
+
+
+                    </div><!--Ends the div for contactsrow2column1row2-->
+                </div><!--Ends the div for contactsrow2column1-->
+                <div class="contactsrow2column2"><!--Starts the div for contactsrow2column2-->
+
+                    <form action=”mailto:singhvaibhav.vst@gmail.com” method=”POST” enctype=”multipart/form-data”
+                        name=”EmailForm”>
+                        <table cellspacing="20px" cellpadding="20px" class="center">
+                            <tr>
+                                <td><input type="text" name="Your Name" value="Your Name"></td>
+                                <td><input type="email" name="Your Email" value="Your Email"></td>
+
+                            </tr>
+
+                            <tr>
+                                <td colspan="2"><input type="text" value="Subject"></td>
+
+                            </tr>
+
+                            <tr>
+                                <td colspan="2"><textarea cols="40" rows="4">Message</textarea></td>
+
+                            </tr>
+
+                            <tr>
+                                <td cellpadding="0px" width="100px" colspan="Send Message"><input type="submit"
+                                        name="Send Message" value="Send Message"></td>
+
+                            </tr>
+                        </table>
+                    </form>
+
+                </div><!--Ends the div for contactsrow2column2-->
+
+            </div><!--Ends the div for contactsrow2-->
+            <!--Starts the div for contactsrow3-->
+            <div class="contactsrow3"> <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.148176085357!2d73.97765305061205!3d15.422551889230657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfba54fee5bafd%3A0x69e94eca83b5d602!2sIndian%20Institute%20of%20Technology%20(IIT)%2C%20Goa!5e0!3m2!1sen!2sin!4v1655758076073!5m2!1sen!2sin"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+            </div> <!--Ends the div for contactsrow3-->
+
+
+        </div> <!--Ends the div for contacts-->
+        <!--Starts the div for Footer-->
+        <div class="footer">
+            <div class="footertrans"> <!--Transparent cover for footer-->
+                <div class="footercolumn1">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#home">About Us</a></li>
+                        <li><a href="#home">Events</a></li>
+                        <li><a href="#home">Our Team</a></li>
+                        <li><a href="#contacts">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footercolumn2">
+                    <h3>Contact Us</h3>
+                    <b>Phone:</b> +91 9000000000 <br />
+                    <b>Email:</b> testing.website_mail@iitgoa.ac.in
+
+
+                </div>
+
+                <div class="footercolumn3">
+                    <h3>About Panache IIT Goa</h3>
+                    Panache IIT Goa is the Debate Club of IIT Goa. <br /><br />
+
+                    <a href="https:\\iitgoa.ac.in"><img src="images/twitter.png" width="30px" height="30px"></a>
+                    <a href="https:\\iitgoa.ac.in"><img src="images/fb.png" width="30px" height="30px"></a>
+                    <a href="https:\\iitgoa.ac.in"><img src="images/insta.png" width="30px" height="30px"></a>
+                    <a href="https:\\iitgoa.ac.in"><img src="images/youtube.png" width="30px" height="30px"></a>
+
+                </div>
             </div>
+        </div><!--Ends the div for Footer-->
 
-            <div class="footercolumn2">
-                <h3>Contact Us</h3>
-                <b>Phone:</b> +91 9000000000 <br />
-                <b>Email:</b> testing.website_mail@iitgoa.ac.in
-
-
-            </div>
-
-            <div class="footercolumn3">
-                <h3>About Panache IIT Goa</h3>
-                Panache IIT Goa is the Debate Club of IIT Goa. <br /><br />
-
-                <a href="https:\\iitgoa.ac.in"><img src="images/twitter.png" width="30px" height="30px"></a>
-                <a href="https:\\iitgoa.ac.in"><img src="images/fb.png" width="30px" height="30px"></a>
-                <a href="https:\\iitgoa.ac.in"><img src="images/insta.png" width="30px" height="30px"></a>
-                <a href="https:\\iitgoa.ac.in"><img src="images/youtube.png" width="30px" height="30px"></a>
-
-            </div>
-        </div>
-        <div class="gobacktotop"><a href="#Webpage Top"><img src="images/Back-to-top.png" alt="Top" style="width:50px; height: 30px;"></a></div>
-
-
-    </div>
-
-    <div class="copyright">
-        © Copyright Panache IIT Goa. All Rights Reserved
-    </div>
+        <div class="copyright"><!--Starts the div for Copyright-->
+            © Copyright Panache IIT Goa. All Rights Reserved
+        </div><!--Ends the div for Copyright-->
 
     </div>
 
 </body>
 
 </html>
+<div class="gobacktotop"><a href="#Webpage Top"><img src="images/Back-to-top.png" alt="Top" style="width:50px; height: 30px;"></a></div>

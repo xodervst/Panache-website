@@ -148,6 +148,21 @@
 }
 
 
+.events{
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+
+.eventsrow2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+
+}
+
 .contacts {
     width: 100%;
     height: 850px;
