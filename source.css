@@ -414,3 +414,15 @@ table {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.fa{
+    width: 60px;
+    
+    color: wheat;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+}
