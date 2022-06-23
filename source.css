@@ -584,3 +584,9 @@ div.aboutusbody p {
 .aboutuspersonbackground {
     background-color: #97f9e3;
 }
+
+#grad1 {
+    height: 20px;
+    background-color: #97f9e3;
+    background-image: linear-gradient(to bottom right, #ccf9ef, #289b82);
+}
