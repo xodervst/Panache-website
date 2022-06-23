@@ -591,3 +591,9 @@ div.aboutusbody p {
     border-spacing: 5px;
 
 }
+
+#grad2 {
+    height: 100%;
+    background-color: #97f9e3;
+    background-image: linear-gradient(to bottom right, white, #90fbe4);
+}
