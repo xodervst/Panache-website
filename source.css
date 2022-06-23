@@ -350,23 +350,15 @@ a {
     border-bottom: 1px dotted black;
 }
 
-th,
-td {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 40px;
-    align-items: center;
-    background-color: rgba(124, 120, 120, 0.8);
-    background-color: #2b7e69;
 
-}
 
 
 .contacts th,
 td {
     background-color: white;
 }
+
+
 
 .tooltip .tooltiptext {
     visibility: hidden;
@@ -531,18 +523,19 @@ div.aboutusbody p {
 /* Three columns side by side */
 .column {
     float: left;
-    width: 25%;
+    width: 20%;
     margin-bottom: 16px;
-    padding: 0px 8px;
-    margin-left: 63px;
+    padding: 0px;
+    margin-left: 20px;
     background-color: white;
+    align-items: center;
+
 }
-
-
 
 /* Add some shadows to create a card effect */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
 }
 
 /* Some left and right padding inside the container */
@@ -558,6 +551,9 @@ div.aboutusbody p {
     content: "";
     clear: both;
     display: table;
+    justify-content: center;
+    align-content: center;
+
 }
 
 .title {
@@ -589,4 +585,9 @@ div.aboutusbody p {
     height: 20px;
     background-color: #97f9e3;
     background-image: linear-gradient(to bottom right, #ccf9ef, #289b82);
+}
+
+.table1 {
+    border-spacing: 5px;
+
 }
