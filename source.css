@@ -281,6 +281,12 @@ box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
     margin: auto;
 }
 
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 a {
     text-decoration: none;
 }
@@ -355,6 +361,7 @@ a {
     display: -moz-popup;
     border-bottom: 1px dotted black;
     overflow: hidden;
+    text-align: center;
 }
 
 

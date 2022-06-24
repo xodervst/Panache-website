@@ -12,8 +12,6 @@
     <link href="source.css" rel="stylesheet" type="text/css" />
 </head>
 
-
-
 <body class="body">
     <div class="main" id="Webpage Top">
         <!--Following code is for First Row- Navigation Bar and Second Row-Home Page-->
@@ -47,10 +45,11 @@
         <div id="grad1"> </div>
         <!--About Us-->
         <div class="aboutus" id="aboutus">
+             <!--About Us contains two div one for header and one for body, body is under the background div-->
             <div class="aboutus_header">About Us<img class="quill" src="images/quill.gif" alt="quill"></div>
             <div class="aboutusbackground">
                 <div class="aboutusbody">
-                    <p>The power of words is often overlooked by the masses.
+                    <p><b>The power of words is often overlooked by the masses.
                         We at Panache strive to develop a community of students who not only understand this power but
                         also use it to the best of their abilities.
                         We aim to help students sharpen their oratory skills by conducting various competitions,
@@ -64,29 +63,26 @@
                         club of IIT Goa, aims at enhancing the student’s ability to communicate their feelings by
                         understanding their own emotions. The club provides a platform to the orators to converge and
                         hone
-                        their debating, leadership and public speaking skills. </p>
+                        their debating, leadership and public speaking skills.</b> </p>
                 </div>
             </div>
         </div>
         <div id="grad1"> </div>
         <!--This ends the div for row1and2-->
-        
+
+        <!--This starts the div for events part-->
         <div class="events" id="Events">
 
-            <div class="contactsrow1">Events</div>
-            <div class="eventsrow2">
-                <table align="center">
+            <div class="contactsrow1">Events</div>  <!-- Events part uses the div made for contacts header to reduce code-->
+            <div class="eventsrow2"><!--Div for Events Body-->
+                <table align="center"> <!--We use table to create the events card and each cell has a div for event-->
                     <tr>
                         <td>
                             <div class="eventpostercard">
                                 <div class="tooltip">
                                     <img src="images/quizzaholic.webp" alt="Event1" style="width:300px; height: 300px;">
-                                    <center>
                                         <h2> Quizzaholic Bandits </h2>
-                                    </center>
-                                    <center>
                                         <h4> December, 2021 </h4>
-                                    </center>
                                     <span class="tooltiptext">This is a quizzing competition. It helps in identifying
                                         the students what they know and what they don't. It increases the level of
                                         practice, and concentration and increases the uplift of the memorizing level at
@@ -94,18 +90,16 @@
                                     </span>
                                 </div>
                             </div>
-
                         </td>
                         <td>
                             <div class="eventpostercard">
                                 <div class="tooltip"><img src="images/Debatomania.png" alt="Event2"
                                         style="width:300px; height: 300px;">
-                                    <center>
+                                   
                                         <h2> Debatomania </h2>
-                                    </center>
-                                    <center>
+                                    
                                         <h4> December, 2021 </h4>
-                                    </center>
+                                  
                                     <span class="tooltiptext2">Students debate on topics that compel them to think of
                                         whys and hows on real-world issues while practicing and competing on their
                                         ability to present their case using just the right words. The format of the
@@ -119,12 +113,11 @@
                             <div class="eventpostercard">
                                 <div class="tooltip"><img src="images/OutOfTheBox.png" alt="Event3"
                                         style="width:300px; height: 300px;">
-                                    <center>
+                                
                                         <h2> Out of The Box </h2>
-                                    </center>
-                                    <center>
+                                   
                                         <h4> December, 2021 </h4>
-                                    </center>
+                            
                                     <span class="tooltiptext">This was a case study competition held in collaboration
                                         with the Entrepreneurship Club of IIT Goa. Here, students present their case
                                         studies in the field of engineering, finance, entrepreneurship, management, and
@@ -140,12 +133,11 @@
                             <div class="eventpostercard">
                                 <div class="tooltip"><img src="images/Tv-Trivia.jpeg" alt="Event4"
                                         style="width:300px; height: 300px;">
-                                    <center>
+                                    
                                         <h2> TV Trivia </h2>
-                                    </center>
-                                    <center>
+                                   
                                         <h4> December, 2021 </h4>
-                                    </center>
+                               
                                     <span class="tooltiptext">This is a fun event where student teams answer questions
                                         based on TV shows and movies.
 
@@ -158,12 +150,10 @@
                             <div class="eventpostercard">
                                 <div class="tooltip"><img src="images/JAM.jpeg" alt="Event5"
                                         style="width:300px; height: 300px;">
-                                    <center>
+                     
                                         <h2> Just a Minute </h2>
-                                    </center>
-                                    <center>
                                         <h4> December, 2021 </h4>
-                                    </center>
+                            
                                     <span class="tooltiptext">JAMs, typically conducted every Saturday, as the name
                                         suggests,
                                         students are supposed to speak on the spot for a minute on a topic that has just
@@ -177,12 +167,8 @@
                             <div class="eventpostercard">
                                 <div class="tooltip"><img src="images/gumnaam.jpeg" alt="Event6"
                                         style="width:300px; height: 300px;">
-                                    <center>
                                         <h2> Gumnaam </h2>
-                                    </center>
-                                    <center>
-                                        <h4> December, 2021 </h4>
-                                    </center>
+                                        <h4> December, 2021 </h4>                   
                                     <span class="tooltiptext">In this competition, the students are given a picture and
                                         they have to come up with the most innovative meaning that the picture contains
                                         in a brief writeup for the same.
@@ -197,23 +183,21 @@
 
         </div>
 
-        <div id="grad1"> </div>
+        <div id="grad1"> </div><!--This is the section break added-->
+        
         <!--Our Team-->
-
         <div class="ourteam" id="ourteam">
             <div id="grad2">
                 <div class="ourteam_header">Our Team</div>
-                <center>
-
                     <table align="center" class="table1">
                         <tr style="padding: 0%;">
                             <td style="width: 60%;">
                                 <div class="row">
                                     <div class="card">
-                                        <center>
+                                     
                                             <div class="aboutuspersonbackground"><img src="images/girl.png"
-                                                    alt="Person1" style="width:80px; height: 100px;"></div>
-                                        </center>
+                                                    alt="Person1" style="width:80px; height: 100px;" class="center2"></div>
+                                   
                                         <div class="container">
                                             <h2>Nandini Mawane</h2>
                                             <p class="title">Club Head 2021-22</p>
@@ -230,10 +214,10 @@
                             <td style="width: 20%;">
                                 <div class="row">
                                     <div class="card">
-                                        <center>
+                                      
                                             <div class="aboutuspersonbackground"><img src="images/girl.png"
-                                                    alt="Person2" style="width:50px;"></div>
-                                        </center>
+                                                    alt="Person2" style="width:50px;" class="center2"></div>
+                            
                                         <div class="container">
                                             <h2>Aabha Marathe</h2>
                                             <p class="title">Core Member</p>
@@ -247,10 +231,10 @@
                             <td style="width: 20%;">
                                 <div class="row">
                                     <div class="card">
-                                        <center>
+                                
                                             <div class="aboutuspersonbackground"><img src="images/boy.png" alt="Person2"
-                                                    style="width:43px;"></div>
-                                        </center>
+                                                    style="width:43px;" class="center2"></div>
+                                    
                                         <div class="container">
                                             <h2>Jay Jawale</h2>
                                             <p class="title">Core Member</p>
@@ -264,10 +248,10 @@
                             <td style="width: 20%;">
                                 <div class="row">
                                     <div class="card">
-                                        <center>
+                                  
                                             <div class="aboutuspersonbackground"><img src="images/girl.png"
-                                                    alt="Person2" style="width:50px;"></div>
-                                        </center>
+                                                    alt="Person2" style="width:50px;" class="center2"></div>
+                               
                                         <div class="container">
                                             <h2>Madhura Botave</h2>
                                             <p class="title">Core Member</p>
@@ -281,10 +265,10 @@
                             <td style="width: 20%;">
                                 <div class="row">
                                     <div class="card">
-                                        <center>
+                        
                                             <div class="aboutuspersonbackground"><img src="images/girl.png"
-                                                    alt="Person2" style="width:50px;"></div>
-                                        </center>
+                                                    alt="Person2" style="width:50px;" class="center2"></div>
+                                   
                                         <div class="container">
                                             <h2>Pavithra Soman</h2>
                                             <p class="title">Core Member</p>
@@ -298,11 +282,10 @@
                             <td style="width: 20%;">
                                 <div class="row">
                                     <div class="card">
-                                        <center>
+                                   
                                             <div class="aboutuspersonbackground"><img src="images/girl.png"
-                                                    alt="Person2" style="width:50px;"></div>
-                                        </center>
-                                        <div class="container">
+                                                    alt="Person2" style="width:50px;" class="center2"></div>
+                                            <div class="container">
                                             <h2>Shreya Marda</h2>
                                             <p class="title">Core Member</p>
                                             <p>Class of 2025</p>
@@ -319,10 +302,10 @@
                         <td style="width: 33.5%;">
                             <div class="row">
                                 <div class="card">
-                                    <center>
+                                 
                                         <div class="aboutuspersonbackground"><img src="images/girl.png" alt="Person2"
-                                                style="width:50px;"></div>
-                                    </center>
+                                                style="width:50px;" class="center2"></div>
+                              
                                     <div class="container">
                                         <h2>Shreya Singhal</h2>
                                         <p class="title">Core Member</p>
@@ -336,10 +319,10 @@
                         <td style="width: 33.5%;">
                             <div class="row">
                                 <div class="card">
-                                    <center>
+                               
                                         <div class="aboutuspersonbackground"><img src="images/boy.png" alt="Person2"
-                                                style="width:43px;"></div>
-                                    </center>
+                                                style="width:43px;" class="center2"></div>
+                                  
                                     <div class="container">
                                         <h2>Sujal Jani</h2>
                                         <p class="title">Core Member</p>
@@ -353,10 +336,10 @@
                         <td style="width: 33.5%;">
                             <div class="row">
                                 <div class="card">
-                                    <center>
+                                  
                                         <div class="aboutuspersonbackground"><img src="images/girl.png" alt="Person2"
-                                                style="width:50px;"></div>
-                                    </center>
+                                                style="width:50px;" class="center2"></div>
+                                
                                     <div class="container">
                                         <h2>Swasti Jain</h2>
                                         <p class="title">Core Member</p>
